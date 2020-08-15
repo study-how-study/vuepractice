@@ -1,2 +1,30 @@
 git特点
-分布式版本控制，快，社区成熟
+分布式版本控制，快，社区成熟；认为文件区、暂存区、提交区
+
+安装地址
+https://gitforwindows.org/
+
+git常用命令
+
+git status
+
+git config
+git config --global user.email "1345566571@qq.com"
+git config --global user.name "study-how-study"
+git config --global -l 查看用户配置
+
+git add  
+文件区到缓存区
+
+git add .
+
+git commit
+暂存区到提交区
+
+git commit -a -m '注释'
+
+git log 查看历史记录
+
+git diff 版本差异
+
+.gitignore 忽略文件，只针对未跟踪文件
