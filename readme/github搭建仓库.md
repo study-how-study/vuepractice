@@ -61,7 +61,7 @@ git add *
 >暂存区到提交区
 ```
 git commit
-git commit -a -m '注释'
+git commit -a -m '注释' // 需要tracked 推送时执行git push -u origin master
 ```
 >查看历史记录
 ```
